@@ -1,0 +1,6 @@
+<p>{{miVariable}}</p>
+<app-hijo [mensaje]="mensajePadre" (eventoHijo)="mensajeRecibido($event)"></app-hijo>
+
+<button (click)="modificarMensaje()">MODIFICAR</button>
+
+MENSAJE DE HIJO: {{ mensajeHijo }}
